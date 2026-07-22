@@ -132,5 +132,3 @@ Performing predictive analysis to estimate student performance using machine lea
 **📌 Conclusion**
 
 This project demonstrates how Python, Pandas, and Matplotlib can be used to transform raw educational data into meaningful insights. By importing, exploring, analysing, and visualising student performance data, the project showcases essential data analysis techniques and highlights the value of Python for solving real-world analytical problems. It serves as a strong foundational portfolio project for aspiring Data Analysts, Business Intelligence Analysts, and Junior Data Scientists.
-
-
