@@ -71,42 +71,6 @@ df.info()
 df.describe()
 
 
-id	name	class	mark	gender
-0	1	John Deo	Four	75	female
-1	2	Max Ruin	Three	85	male
-2	3	Arnold	Three	55	male
-3	4	Krish Star	Four	60	female
-4	5	John Mike	Four	60	female
-5	6	Alex John	Four	55	male
-6	7	My John Rob	Fifth	78	male
-7	8	Asruid	Five	85	male
-8	9	Tes Qry	Six	78	NaN
-9	10	Big John	Four	55	female
-10	11	Ronald	Six	89	female
-11	12	Recky	Six	94	female
-12	13	Kty	Seven	88	female
-13	14	Bigy	Seven	88	female
-14	15	Tade Row	NaN	88	male
-15	16	Gimmy	Four	88	male
-16	17	Tumyu	Six	54	male
-17	18	Honny	Five	75	male
-18	19	Tinny	Nine	18	male
-19	20	Jackly	Nine	65	female
-20	21	Babby John	Four	69	female
-21	22	Reggid	Seven	55	female
-22	23	Herod	Eight	79	male
-23	24	Tiddy Now	Seven	78	male
-24	25	Giff Tow	Seven	88	male
-25	26	Crelea	Seven	79	male
-26	27	NaN	Three	81	NaN
-27	28	Rojj Base	Seven	86	female
-28	29	Tess Played	Seven	55	male
-29	30	Reppy Red	Six	79	female
-30	31	Marry Toeey	Four	88	male
-31	32	Binn Rott	Seven	90	female
-32	33	Kenn Rein	Six	96	female
-33	34	Gain Toe	Seven	69	male
-34	35	Rows Noump	Six	88	female
 
 
 **📊 Data Analysis**
@@ -146,6 +110,8 @@ plt.ylabel("Average Score")
 
 plt.xticks(rotation=0)
 plt.show()
+
+
 
 The visualization clearly highlights performance differences between classes, making it easier to identify high-performing and low-performing groups.
 
