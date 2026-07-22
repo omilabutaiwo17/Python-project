@@ -35,18 +35,22 @@ http://localhost:8888/lab/tree/student_with_grade.csv
 
 http://localhost:8888/files/student_with_grade.csv?_xsrf=2%7C3f55bbfe%7C3376f49fbf4db39d22aaf98f4a5081ec%7C1784108032
 
-**🛠 Tools Used**
-Python
-Jupyter Notebook
-Pandas
-Matplotlib
+**🛠 Technologies Used**
+
+Python,
+Jupyter Notebook,
+Pandas,
+Matplotlib,
 CSV
 
 **Python Libaries**
+
 import pandas as pd
+
 import matplotlib.pyplot as plt
 
 **Data Import**
+
 df = pd.read_csv("student.csv")
 
 **🔍 Data Exploration**
