@@ -111,6 +111,8 @@ plt.ylabel("Average Score")
 plt.xticks(rotation=0)
 plt.show()
 
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/eaefacc8-7ccc-45b1-a7b2-3403d18e1ffb" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/7ba84b1b-3f03-44cb-baba-1c531d6947c0" />
 
 
 The visualization clearly highlights performance differences between classes, making it easier to identify high-performing and low-performing groups.
