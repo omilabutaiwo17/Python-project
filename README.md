@@ -1,5 +1,6 @@
 # Python-project
-📊 Student Performance Analysis using Python
+
+**📊 Student Performance Analysis using Python**
 
 **📌 Project Overview**
 
@@ -23,11 +24,11 @@ The objectives of this project are to:
 
 The dataset contains student information, including:
 
-Column	Description
-id	Student ID
-name	Student Name
-class	Student Class
-mark	Examination Score
+Column	Description,
+id	Student ID,
+name	Student Name,
+class	Student Class,
+mark	Examination Score,
 gender	Student Gender
 
 The data was imported directly from a CSV file using Pandas.
@@ -64,9 +65,12 @@ Performed initial exploration by:
 - Understanding dataset structure
 
 df.head()
+
 df.info()
+
 df.describe()
-📊 Data Analysis
+
+**📊 Data Analysis**
 
 The project analysed student performance by:
 
@@ -78,9 +82,13 @@ Score statistics
 Used the following Pandas operations:
 
 groupby()
+
 mean()
+
 count()
+
 describe()
+
 sort_values()
 
 class_score = df.groupby('class')['score'].mean()
@@ -92,8 +100,11 @@ Created an interactive bar chart to compare the average student score by class.
 class_score.plot(kind='bar', figsize=(8,5))
 
 plt.title("Average Student Score by Class")
+
 plt.xlabel("Class")
+
 plt.ylabel("Average Score")
+
 plt.xticks(rotation=0)
 plt.show()
 
