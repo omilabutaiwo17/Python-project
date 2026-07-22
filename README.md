@@ -1,24 +1,25 @@
 # Python-project
 📊 Student Performance Analysis using Python
-📌 Project Overview
+
+**📌 Project Overview**
 
 This project demonstrates the use of Python for data analysis and visualization using a student performance dataset. The analysis focuses on exploring student records, calculating performance statistics, and visualizing average scores across different classes.
 
 Using Pandas for data manipulation and Matplotlib for visualization, the project transforms raw CSV data into meaningful insights that support educational performance analysis.
 
-🎯 Project Objectives
+**🎯 Project Objectives**
 
 The objectives of this project are to:
 
-Import and analyse student data from a CSV file.
-Explore and understand the dataset structure.
-Clean and inspect the data.
-Calculate descriptive statistics.
-Analyse student performance across classes.
-Visualise trends using charts.
-Demonstrate fundamental Python data analysis skills.
+- Import and analyse student data from a CSV file.
+- Explore and understand the dataset structure.
+- Clean and inspect the data.
+- Calculate descriptive statistics.
+- Analyse student performance across classes.
+- Visualise trends using charts.
+- Demonstrate fundamental Python data analysis skills.
 
-Dataset
+**Dataset**
 
 The dataset contains student information, including:
 
@@ -34,9 +35,7 @@ http://localhost:8888/lab/tree/student_with_grade.csv
 
 http://localhost:8888/files/student_with_grade.csv?_xsrf=2%7C3f55bbfe%7C3376f49fbf4db39d22aaf98f4a5081ec%7C1784108032
 
-
-
-🛠 Technologies Used
+**🛠 Tools Used**
 Python
 Jupyter Notebook
 Pandas
@@ -54,11 +53,11 @@ df = pd.read_csv("student.csv")
 
 Performed initial exploration by:
 
-Viewing the dataset
-Checking column names
-Inspecting data types
-Identifying missing values
-Understanding dataset structure
+- Viewing the dataset
+- Checking column names
+- Inspecting data types
+- Identifying missing values
+- Understanding dataset structure
 
 df.head()
 df.info()
@@ -100,33 +99,33 @@ The visualization clearly highlights performance differences between classes, ma
 
 The analysis revealed several important findings:
 
-Student performance varies across different classes.
-Some classes consistently achieved higher average scores than others.
-The bar chart provides a clear comparison of academic performance.
-Grouping data by class helps identify trends that may support educational decision-making.
-Python enables efficient transformation of raw student records into meaningful insights through data analysis and visualization.
+- Student performance varies across different classes.
+- Some classes consistently achieved higher average scores than others.
+- The bar chart provides a clear comparison of academic performance.
+- Grouping data by class helps identify trends that may support educational decision-making.
+- Python enables efficient transformation of raw student records into meaningful insights through data analysis and visualization.
 
 **🎯 Learning Outcomes**
 
 Through this project, I strengthened my ability to:
 
-Read and process CSV files using Pandas.
-Explore and inspect datasets efficiently.
-Perform data aggregation using groupby().
-Generate descriptive statistics to summarise data.
-Create informative visualisations using Matplotlib.
-Interpret analytical results to uncover trends and insights.
-Build reproducible data analysis workflows in Jupyter Notebook.
+- Read and process CSV files using Pandas.
+- Explore and inspect datasets efficiently.
+- Perform data aggregation using groupby().
+- Generate descriptive statistics to summarise data.
+- Create informative visualisations using Matplotlib.
+- Interpret analytical results to uncover trends and insights.
+- Build reproducible data analysis workflows in Jupyter Notebook.
 
 **🚀 Future Improvements**
 
 Potential enhancements for this project include:
 
-Adding gender-based performance analysis.
-Comparing score distributions using box plots and histograms.
-Creating interactive visualisations with Plotly.
-Developing a dashboard using Streamlit or Power BI.
-Performing predictive analysis to estimate student performance using machine learning.
+- Adding gender-based performance analysis.
+- Comparing score distributions using box plots and histograms.
+- Creating interactive visualisations with Plotly.
+- Developing a dashboard using Streamlit or Power BI.
+- Performing predictive analysis to estimate student performance using machine learning.
 
 
 **📌 Conclusion**
